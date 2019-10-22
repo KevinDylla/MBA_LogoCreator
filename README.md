@@ -9,7 +9,7 @@ Einfach nur zum testen ob man die MBA's automatisieren kann
 - UI(x- ish) 
 - Automation / Scaling ()
 - Vllt. MBA API ()
-- Sprüche hinzugefügt werden [json ?] ()
+- Sprüche hinzugefügt werden ()
 - Textgröße angepasst werden 
 - Setup für PyInstaller
 
