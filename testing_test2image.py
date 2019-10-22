@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python3
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -10,12 +10,9 @@ def eingabe():
     ie = int(input("Welche Größe 4500x5400(1) - Alles andere oder 4500x4050(2) - Hoodies ~> "))
     if ie == 1:
         groesse = groesse_in_dim[0]
-        print (groesse)
         return
     elif ie == 2:
         groesse = groesse_in_dim[1]
-        print (type(groesse))
-        print (len(groesse))
         return
     else:
         print("falsche eingabe: entweder 1 (4500x5400) oder 2 (4500x4050)")
